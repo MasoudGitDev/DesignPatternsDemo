@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34310.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.App", "DesignPatterns.App\DesignPatterns.App.csproj", "{C22B03E0-59AF-479B-8CA8-6FB4FF9AAD94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Shared.FactoryPattern", "DesignPatterns.Shared.FactoryPattern\DesignPatterns.Shared.FactoryPattern.csproj", "{BA056F23-C7DA-437E-BE89-7859F2D2DAED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Shared", "DesignPatterns.Shared\DesignPatterns.Shared.csproj", "{424F91BD-0F33-47C3-AA42-B542C0DEBD29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C22B03E0-59AF-479B-8CA8-6FB4FF9AAD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C22B03E0-59AF-479B-8CA8-6FB4FF9AAD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C22B03E0-59AF-479B-8CA8-6FB4FF9AAD94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA056F23-C7DA-437E-BE89-7859F2D2DAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA056F23-C7DA-437E-BE89-7859F2D2DAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA056F23-C7DA-437E-BE89-7859F2D2DAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA056F23-C7DA-437E-BE89-7859F2D2DAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424F91BD-0F33-47C3-AA42-B542C0DEBD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424F91BD-0F33-47C3-AA42-B542C0DEBD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424F91BD-0F33-47C3-AA42-B542C0DEBD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424F91BD-0F33-47C3-AA42-B542C0DEBD29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
