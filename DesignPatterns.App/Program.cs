@@ -1,6 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-using DesignPatterns.Shared.FactoryPattern;
+﻿using DesignPatterns.Shared;
+using Patterns = DesignPatterns.Shared.Consts.DesignPatterns;
 
 Console.WriteLine("Hello, World!");
 
-HowToUse.MakeExample();
+HowToUsePatternsFactory.MakeExample(Patterns.Factory);

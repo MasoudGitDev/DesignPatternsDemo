@@ -1,10 +1,11 @@
-﻿using DesignPatterns.Shared.FactoryPattern.Factories;
+﻿using DesignPatterns.Shared.Abstractions;
+using DesignPatterns.Shared.FactoryPattern.Factories;
 using DesignPatterns.Shared.Services;
 
 namespace DesignPatterns.Shared.FactoryPattern;
-public static class HowToUse {
+public class HowToUse:IHowToUse {
 
-    public static void MakeExample() {
+    public void MakeExample() {
         var furniture = new FurnitureFactory().Create(Consts.FurnitureType.Art);
         furniture?.ChooseChair().TakeSeat();
         furniture?.ChooseSofa().TakeSeat();

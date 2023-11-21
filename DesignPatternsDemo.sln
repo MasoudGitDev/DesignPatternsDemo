@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34310.174
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.App", "DesignPatterns.App\DesignPatterns.App.csproj", "{C22B03E0-59AF-479B-8CA8-6FB4FF9AAD94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.App", "DesignPatterns.App\DesignPatterns.App.csproj", "{C22B03E0-59AF-479B-8CA8-6FB4FF9AAD94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Shared.FactoryPattern", "DesignPatterns.Shared.FactoryPattern\DesignPatterns.Shared.FactoryPattern.csproj", "{BA056F23-C7DA-437E-BE89-7859F2D2DAED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Shared.FactoryPattern", "DesignPatterns.Shared.FactoryPattern\DesignPatterns.Shared.FactoryPattern.csproj", "{BA056F23-C7DA-437E-BE89-7859F2D2DAED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Shared", "DesignPatterns.Shared\DesignPatterns.Shared.csproj", "{424F91BD-0F33-47C3-AA42-B542C0DEBD29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Shared", "DesignPatterns.Shared\DesignPatterns.Shared.csproj", "{424F91BD-0F33-47C3-AA42-B542C0DEBD29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Shared.SingletonPattern", "DesignPatterns.Shared.SingletonPattern\DesignPatterns.Shared.SingletonPattern.csproj", "{3A3169E0-B198-4025-9E19-883221B6D2E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{424F91BD-0F33-47C3-AA42-B542C0DEBD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{424F91BD-0F33-47C3-AA42-B542C0DEBD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{424F91BD-0F33-47C3-AA42-B542C0DEBD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3169E0-B198-4025-9E19-883221B6D2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3169E0-B198-4025-9E19-883221B6D2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3169E0-B198-4025-9E19-883221B6D2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3169E0-B198-4025-9E19-883221B6D2E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
