@@ -3,4 +3,4 @@ using Patterns = DesignPatterns.Shared.Consts.DesignPatterns;
 
 Console.WriteLine("Hello, World!");
 
-HowToUsePatternsFactory.MakeExample(Patterns.Factory);
+HowToUsePatternsFactory.MakeExample(Patterns.Builder);
