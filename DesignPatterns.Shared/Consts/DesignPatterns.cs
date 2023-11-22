@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Shared.Consts {
     public enum DesignPatterns {
-        Singleton , Factory
+        Singleton , Factory , Builder
     }
 }
