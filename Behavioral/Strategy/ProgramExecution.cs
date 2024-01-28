@@ -29,7 +29,7 @@ internal class ProgramExecution {
             (double firstNumber, double secondNumber) = GetOperationValues();
             var mathContext = MathCalculation.Create();
             var resultValue = mathContext.Calculate(mathOperationType , firstNumber ,secondNumber);
-            Console.WriteLine($"{firstNumber} {mathOperationType} {secondNumber} : {resultValue}");
+            Console.WriteLine($"{firstNumber} {mathOperationType} {secondNumber} : {resultValue.First()}");
             Console.WriteLine("Done.");
         }
         catch(DivideByZeroException ex) {
