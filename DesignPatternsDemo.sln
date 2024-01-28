@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Shared", "De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Shared.SingletonPattern", "DesignPatterns.Shared.SingletonPattern\DesignPatterns.Shared.SingletonPattern.csproj", "{3A3169E0-B198-4025-9E19-883221B6D2E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Shared.BuilderPattern", "DesignPatterns.Shared.BuilderPattern\DesignPatterns.Shared.BuilderPattern.csproj", "{564E449D-C253-4E1F-8606-AD1FA7EAB8A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Shared.BuilderPattern", "DesignPatterns.Shared.BuilderPattern\DesignPatterns.Shared.BuilderPattern.csproj", "{564E449D-C253-4E1F-8606-AD1FA7EAB8A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{4555B907-0456-4111-981D-AA136D28CBC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Behavioral\Strategy\Strategy.csproj", "{A4016FD6-24E3-4D14-A2B5-452343DC9C73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +43,16 @@ Global
 		{564E449D-C253-4E1F-8606-AD1FA7EAB8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{564E449D-C253-4E1F-8606-AD1FA7EAB8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{564E449D-C253-4E1F-8606-AD1FA7EAB8A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4016FD6-24E3-4D14-A2B5-452343DC9C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4016FD6-24E3-4D14-A2B5-452343DC9C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4016FD6-24E3-4D14-A2B5-452343DC9C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4016FD6-24E3-4D14-A2B5-452343DC9C73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4016FD6-24E3-4D14-A2B5-452343DC9C73} = {4555B907-0456-4111-981D-AA136D28CBC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ADD1343B-CA16-415E-A6E6-EBF771D5649B}
