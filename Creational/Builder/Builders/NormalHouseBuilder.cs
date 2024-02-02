@@ -1,10 +1,10 @@
-﻿using Builder.Houses;
+﻿using Builder.Abstractions;
 using Shared.Services;
 
 namespace Builder.Builders;
-internal class NormalHouseBuilder(NormalHouse _normalHouse) {
+internal class NormalHouseBuilder(IHouse _normalHouse) {
 
-    public virtual NormalHouse Build() {
+    public virtual IHouse Build() {
         _normalHouse.CreateFoundation();
         _normalHouse.CreateWalls();
         _normalHouse.CreateRoofs();

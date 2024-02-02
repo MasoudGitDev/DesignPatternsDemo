@@ -6,7 +6,7 @@ namespace Builder.Houses;
 internal class LuxuryHouse : NormalHouse , IHouseOptions {
     public LuxuryHouse(IHouseProperties _properties) : base(_properties) {
     }
-    public LuxuryHouse(NormalHouse normalHouse) : base(normalHouse) {
+    public LuxuryHouse(IHouse normalHouse) : base(normalHouse) {
 
     }
 

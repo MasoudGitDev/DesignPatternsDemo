@@ -1,10 +1,11 @@
-﻿using Builder.Houses;
+﻿using Builder.Abstractions;
+using Builder.Houses;
 using Shared.Services;
 
 namespace Builder.Builders;
 internal class LuxuryHouseBuilder : NormalHouseBuilder {
 
-    public LuxuryHouseBuilder(NormalHouse _normalHouse) : base(_normalHouse) {
+    public LuxuryHouseBuilder(IHouse _normalHouse) : base(_normalHouse) {
     }
     public override LuxuryHouse Build() {       
         var normalHouse = base.Build();
