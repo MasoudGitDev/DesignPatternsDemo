@@ -12,8 +12,8 @@ internal class ShapeFactory {
                 && !x.IsAbstract
                 && x.IsAssignableTo(typeof(Shape)) 
                 && x.Name.ToLower().Contains(shapeName))
-            .FirstOrDefault().IfNull<ShapeFactoryException,Type>($"System can not find <{shapeName}> shape.");
+            .FirstOrDefault().ThrowIfNull<ShapeFactoryException,Type>($"System can not find <{shapeName}> shape.");
         return ( Activator.CreateInstance(shapeType) as Shape )
-            .IfNull<ShapeFactoryException , Shape>($"System can not create <{shapeName}> shape.");
+            .ThrowIfNull<ShapeFactoryException , Shape>($"System can not create <{shapeName}> shape.");
     }
 }
