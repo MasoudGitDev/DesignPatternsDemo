@@ -1,6 +1,9 @@
-﻿// An Example of ChainOfResponsibility (PasswordChecker)
-
+﻿using Shared.Services;
 using PasswordChecker;
+
+
+Logger.CreateTitle("An Example of ChainOfResponsibility (PasswordChecker)");
+
 
 CheckPassword();
 
