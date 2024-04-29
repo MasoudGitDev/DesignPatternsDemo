@@ -12,17 +12,21 @@ internal class PasswordCheckerHandler {
 
     public static void Validate(string password) {
         int invalidCounter = 0;
-        List<string> checkerName = [];
+        List<string> checkerNames = [];
         foreach(var checker in _checkers) {
            bool isValid =  checker.Value.Check(password);
             if(!isValid) {
                 invalidCounter++;                
-                checkerName.Add(checker.Value.Name);
+                checkerNames.Add(checker.Value.Name);
             }
         }
+      LogErrors(invalidCounter, checkerNames);
+    }    
+
+    private static void LogErrors(int invalidCounter , List<string> checkerNames) {
         if(invalidCounter > 0) {
             Logger.CreateTitle($"Errors : ({invalidCounter})");
-            foreach(var name in checkerName) {                
+            foreach(var name in checkerNames) {
                 Logger.Log(name);
             }
         }
