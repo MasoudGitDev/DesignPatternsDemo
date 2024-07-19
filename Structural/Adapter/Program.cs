@@ -11,8 +11,9 @@ Console.WriteLine("Main : " + bmw);
 var bmwAdapter = new CarAdapter(bmw);
 Console.WriteLine("BMW-Adapter : " + bmwAdapter + "\n");
 
+// use adapter in extension method
 var tesla = new Tesla();
 Console.WriteLine("Main : " + tesla);
 
-var teslaAdapter = tesla.AsStandard();
-Console.WriteLine("Tesla-Adapter : " + teslaAdapter);
+var teslaAdapter = tesla.AsStandard(); 
+Console.WriteLine("Tesla-Adapter extension : " + teslaAdapter);
