@@ -59,6 +59,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{F1E8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCommandDemo", "Behavioral\Command\ProductCommandDemo\ProductCommandDemo.csproj", "{FEA76924-7846-4840-A4B0-AAEA863C3813}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strategy", "Strategy", "{244970AB-E96F-4C0E-8D47-5C8243BB8856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentStrategyDemo", "Behavioral\Strategy\PaymentStrategyDemo\PaymentStrategyDemo.csproj", "{9BB71BB9-CDBA-43E6-8E9B-A917A945AB75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +137,10 @@ Global
 		{FEA76924-7846-4840-A4B0-AAEA863C3813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEA76924-7846-4840-A4B0-AAEA863C3813}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEA76924-7846-4840-A4B0-AAEA863C3813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB71BB9-CDBA-43E6-8E9B-A917A945AB75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB71BB9-CDBA-43E6-8E9B-A917A945AB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB71BB9-CDBA-43E6-8E9B-A917A945AB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB71BB9-CDBA-43E6-8E9B-A917A945AB75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -162,6 +170,8 @@ Global
 		{AA1F6DFF-839D-49F5-B8F4-2E17405B53FC} = {64F81E94-9C5E-43F0-9503-71617E6CDD34}
 		{F1E8654E-F1E2-4509-B032-D9143172F342} = {4555B907-0456-4111-981D-AA136D28CBC3}
 		{FEA76924-7846-4840-A4B0-AAEA863C3813} = {F1E8654E-F1E2-4509-B032-D9143172F342}
+		{244970AB-E96F-4C0E-8D47-5C8243BB8856} = {4555B907-0456-4111-981D-AA136D28CBC3}
+		{9BB71BB9-CDBA-43E6-8E9B-A917A945AB75} = {244970AB-E96F-4C0E-8D47-5C8243BB8856}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ADD1343B-CA16-415E-A6E6-EBF771D5649B}
