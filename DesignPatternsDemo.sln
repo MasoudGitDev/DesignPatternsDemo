@@ -65,6 +65,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{49
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherObserverDemo", "Behavioral\Observer\WeatherObserverDemo\WeatherObserverDemo.csproj", "{F7C43877-84FF-410A-BFF0-2FCDFCDA0042}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{D193F9B5-8FA9-4823-85E4-DFC8E3AC52B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMakerFacade", "Structural\Facade\CoffeeMakerFacade\CoffeeMakerFacade.csproj", "{BA88EBA4-F63B-42D2-81DC-DE8C43089833}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +147,10 @@ Global
 		{F7C43877-84FF-410A-BFF0-2FCDFCDA0042}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7C43877-84FF-410A-BFF0-2FCDFCDA0042}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7C43877-84FF-410A-BFF0-2FCDFCDA0042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA88EBA4-F63B-42D2-81DC-DE8C43089833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA88EBA4-F63B-42D2-81DC-DE8C43089833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA88EBA4-F63B-42D2-81DC-DE8C43089833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA88EBA4-F63B-42D2-81DC-DE8C43089833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -175,6 +183,8 @@ Global
 		{9BB71BB9-CDBA-43E6-8E9B-A917A945AB75} = {244970AB-E96F-4C0E-8D47-5C8243BB8856}
 		{493C4435-5732-46EE-BC19-0E2C7A5A61FC} = {4555B907-0456-4111-981D-AA136D28CBC3}
 		{F7C43877-84FF-410A-BFF0-2FCDFCDA0042} = {493C4435-5732-46EE-BC19-0E2C7A5A61FC}
+		{D193F9B5-8FA9-4823-85E4-DFC8E3AC52B6} = {CDFA36FB-5278-4774-B327-0AC8525F55F5}
+		{BA88EBA4-F63B-42D2-81DC-DE8C43089833} = {D193F9B5-8FA9-4823-85E4-DFC8E3AC52B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ADD1343B-CA16-415E-A6E6-EBF771D5649B}
